@@ -1,0 +1,29 @@
+
+# Node.js/Vite specific
+node_modules/
+dist/          # Output build folder for Vite
+.vite/         # Temporary Vite files
+.DS_Store      # macOS metadata files
+*.log          # Log files (npm, vite, etc.)
+
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
+
+# Golang specific
+bin/           # Output binary files
+*.exe          # Windows executable
+*.out          # Compiled Go outputs
+*.test         # Test binaries
+*.prof         # Profiling files
+*.sum          # Dependency checksum file
+*.mod          # Go modules file (if you want to regenerate it)
+
+# Temporary and system files
+*.tmp
+*.swp
+*.bak
+Thumbs.db      # Windows metadata
+.idea/         # JetBrains IDE files
+.vscode/       # Visual Studio Code settings
